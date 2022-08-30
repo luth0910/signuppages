@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+    background-color: #f5eddc;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #704f4f;
+}
+
+.btn-sub {
+    text-decoration: none;
+}
+
+.btn-login {
+    margin-right: 2%;
+}
+
+.btn-regis {
+    margin-left: 2%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+.img-web {
+    width: 35rem;
+}
+
+.img-web2 {
+    text-align: center;
+    width: 30rem;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .h-custom {
+        height: 100%;
+    }
+    .img-web {
+        width: 20rem;
+    }
+    .img-web2 {
+        width: 20rem;
+    }
+}
